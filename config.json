@@ -1,0 +1,75 @@
+{
+  "adminEmail": "melinazikou2000@gmail.com",
+  "name": {
+    "el": "Melina Zikou",
+    "en": "Melina Zikou"
+  },
+  "bio": {
+    "el": "",
+    "en": ""
+  },
+  "siteUrl": "",
+  "templateId": "developer",
+  "layout": [
+    "github",
+    "links",
+    "profile",
+    "actions",
+    "techstack",
+    "portfolio"
+  ],
+  "isAvailable": true,
+  "showGreeting": false,
+  "showStatusBadge": true,
+  "customStatusText": {
+    "el": "",
+    "en": ""
+  },
+  "profileImage": "https://lh3.googleusercontent.com/a/ACg8ocJxMEARnqMweNvTH4o03wok7jpviK1d5wI2HQ3dIqtDt4TWUTpVxA=s96-c",
+  "favicon": "👤",
+  "defaultLang": "el",
+  "defaultTheme": "light",
+  "seo": {
+    "title": {
+      "el": "",
+      "en": ""
+    },
+    "description": {
+      "el": "",
+      "en": ""
+    },
+    "keywords": ""
+  },
+  "location": {
+    "el": "Αθήνα ",
+    "en": "Athens"
+  },
+  "skillsTitle": {
+    "el": "Skills",
+    "en": "Skills"
+  },
+  "portfolioTitle": {
+    "el": "Projects",
+    "en": "Projects"
+  },
+  "timezone": "Europe/Athens",
+  "availableFromDate": "01/10/2026",
+  "statusIncludeDates": "",
+  "statusExcludeDates": "",
+  "githubUsername": "melinazik",
+  "githubRepoUrl": "",
+  "githubStatsFallback": {
+    "followers": 0,
+    "reposCount": 0
+  },
+  "youtubeChannelId": "",
+  "youtubeStatsFallback": {
+    "subscriberCount": 0,
+    "viewCount": 0
+  },
+  "contactEmail": "melinazikou2000@gmail.com",
+  "calendlyUrl": "",
+  "googleAnalyticsId": "",
+  "googleClientId": "",
+  "links": []
+}
