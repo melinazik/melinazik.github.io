@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="el">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkHubPage | Free Link in Bio Builder - One Link for Everything You Are</title>
+    <meta name="description" content="Create a free link-in-bio page in minutes. Showcase your links, portfolio and GitHub projects behind one link. Host free, or deploy to your own domain." />
+    <meta name="keywords" content="link in bio, linktree alternative, bio link, free link in bio, link in bio builder, personal website builder, portfolio link, one link, social media links, github portfolio" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="author" content="LinkHubPage" />
+    <link rel="canonical" href="https://linkhubpage.com/" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="LinkHubPage" />
+    <meta property="og:title" content="LinkHubPage | Free Link in Bio Builder" />
+    <meta property="og:description" content="Create a free link-in-bio page in minutes. Showcase your social links, portfolio, GitHub projects, and booking calendar behind one link." />
+    <meta property="og:url" content="https://linkhubpage.com/" />
+    <meta property="og:image" content="https://linkhubpage.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="el_GR" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="LinkHubPage | Free Link in Bio Builder" />
+    <meta name="twitter:description" content="Create a free link-in-bio page in minutes. Showcase your social links, portfolio, GitHub projects, and booking calendar behind one link." />
+    <meta name="twitter:image" content="https://linkhubpage.com/og-image.png" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "LinkHubPage",
+      "url": "https://linkhubpage.com/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any (Web-based)",
+      "description": "Create a free link-in-bio page in minutes. Showcase your social links, portfolio, GitHub projects, and booking calendar behind one link. Host it for free or deploy it to your own domain via GitHub Pages or Cloudflare.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
+    <meta name="theme-color" content="#00d2ff" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- Self-hosted (was Google Fonts + cdnjs FontAwesome): removes two
+         third-party origins and their DNS/TCP/TLS round trips entirely.
+         Still loaded via preload+swap so they don't block first paint. -->
+    <link rel="preload" as="style" href="/vendor/fonts/fonts.css" onload="this.onload=null;this.rel='stylesheet'" />
+    <link rel="preload" as="style" href="/vendor/fontawesome/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+      <link rel="stylesheet" href="/vendor/fonts/fonts.css" />
+      <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css" />
+    </noscript>
+    <script type="module" crossorigin src="./assets/index-D-xOyJ-L.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-TEgfLnO2.css">
+  <script>
+        window.__BUILDER_DEPLOY_MODE__ = true;
+        window.__BUILDER_DEPLOY_TARGET__ = 'github';
+        const __lhpShowSuspended = (msg) => {
+          const text = msg || 'This site is currently unavailable.';
+          document.documentElement.innerHTML = '<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body style="margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#06080d;color:#cbd5e1;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;"><div style="max-width:640px;padding:32px;text-align:center;"><h1 style="margin:0 0 12px 0;color:#22d3ee;font-size:28px;">Site Suspended</h1><p style="margin:0;color:#94a3b8;line-height:1.6;">' + text + '</p></div></body>';
+        };
+        const __lhpCheckSubscription = async (cfg) => {
+          const email = (cfg && cfg.adminEmail) ? String(cfg.adminEmail).trim() : '';
+          if (!email) return true;
+          try {
+            const res = await fetch('https://linkhubpage.com/api/subscription/status?email=' + encodeURIComponent(email), { cache: 'no-store' });
+            if (!res.ok) return true;
+            const sub = await res.json();
+            if (sub && sub.active === false) {
+              __lhpShowSuspended(sub.reason || 'Subscription expired');
+              return false;
+            }
+          } catch (_) {
+            return true;
+          }
+          return true;
+        };
+        const __lhpParts = window.location.pathname.split('/').filter(Boolean);
+        if (__lhpParts[__lhpParts.length - 1] === 'admin') __lhpParts.pop();
+        const __lhpPrefix = __lhpParts.length > 0 ? '/' + __lhpParts[0] + '/' : '/';
+        fetch(__lhpPrefix + 'config.json')
+          .then(res => res.json())
+          .then(async data => {
+            const allowed = await __lhpCheckSubscription(data);
+            if (!allowed) return;
+            window.__PROFILE_CONFIG__ = data;
+            if (window.updateRuntimeConfig) window.updateRuntimeConfig(data);
+          });
+      </script></head>
+  <body class="overflow-x-hidden min-h-screen">
+    <div id="root"></div>
+    <noscript>
+      <main style="max-width: 640px; margin: 0 auto; padding: 48px 24px; font-family: sans-serif; color: #eaeaea; background: #0b0b0f;">
+        <h1>LinkHubPage: One address. Everywhere you are.</h1>
+        <p>Give people one link. It opens your social, your portfolio, your projects, your calendar. One profile, built in minutes.</p>
+        <p>LinkHubPage is a free link-in-bio builder: showcase your links, GitHub projects, and ways to connect on one page. Host it with us, or deploy it to your own domain via GitHub Pages or Cloudflare.</p>
+        <p><a href="/builder" style="color: #00d2ff;">Build your LinkHubPage &rarr;</a></p>
+      </main>
+    </noscript>
+  </body>
+</html>
