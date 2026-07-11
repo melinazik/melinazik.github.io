@@ -11,12 +11,12 @@
   "siteUrl": "",
   "templateId": "developer",
   "layout": [
-    "github",
-    "links",
     "profile",
     "actions",
+    "github",
     "techstack",
-    "portfolio"
+    "portfolio",
+    "links"
   ],
   "isAvailable": true,
   "showGreeting": false,
@@ -27,7 +27,7 @@
   },
   "profileImage": "https://lh3.googleusercontent.com/a/ACg8ocJxMEARnqMweNvTH4o03wok7jpviK1d5wI2HQ3dIqtDt4TWUTpVxA=s96-c",
   "favicon": "👤",
-  "defaultLang": "el",
+  "defaultLang": "en",
   "defaultTheme": "light",
   "seo": {
     "title": {
@@ -53,7 +53,7 @@
     "en": "Projects"
   },
   "timezone": "Europe/Athens",
-  "availableFromDate": "01/10/2026",
+  "availableFromDate": "",
   "statusIncludeDates": "",
   "statusExcludeDates": "",
   "githubUsername": "melinazik",
