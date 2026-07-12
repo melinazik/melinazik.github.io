@@ -13,10 +13,10 @@
   "layout": [
     "profile",
     "actions",
+    "links",
     "github",
     "techstack",
-    "portfolio",
-    "links"
+    "portfolio"
   ],
   "isAvailable": true,
   "showGreeting": false,
@@ -41,7 +41,7 @@
     "keywords": ""
   },
   "location": {
-    "el": "Αθήνα ",
+    "el": "Αθήνα",
     "en": "Athens"
   },
   "skillsTitle": {
@@ -53,7 +53,7 @@
     "en": "Projects"
   },
   "timezone": "Europe/Athens",
-  "availableFromDate": "",
+  "availableFromDate": "01/10/2026",
   "statusIncludeDates": "",
   "statusExcludeDates": "",
   "githubUsername": "melinazik",
@@ -71,5 +71,22 @@
   "calendlyUrl": "",
   "googleAnalyticsId": "",
   "googleClientId": "",
-  "links": []
+  "links": [
+    {
+      "url": "https://github.com/melinazik",
+      "icon": "fab fa-github",
+      "cssClass": "github",
+      "langKey": "github",
+      "tooltipKey": "tooltip-github",
+      "external": true
+    },
+    {
+      "url": "https://www.linkedin.com/in/melinazikou/",
+      "icon": "fab fa-linkedin",
+      "cssClass": "linkedin",
+      "langKey": "linkedin",
+      "tooltipKey": "tooltip-linkedin",
+      "external": true
+    }
+  ]
 }
